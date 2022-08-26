@@ -1,13 +1,12 @@
-import React, {Component} from 'react';
-import TodoListTemplate from './components/01_study/TodoListTemplate';
-import Form from './components/01_study/Form';
+import React, { Component } from 'react';
+import TestRosBridge from './components/turtle_test_suite/test';
 
 class App extends Component {
   render() {
     return (
-      <TodoListTemplate form={<Form/>}>
-        템플릿 완성
-      </TodoListTemplate>
+      <div>
+        <TestRosBridge/>
+      </div>
     );
   }
 }
