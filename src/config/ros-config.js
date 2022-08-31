@@ -21,3 +21,7 @@ ros.on('close', () => {
 ros.connect(process.env.REACT_APP_ROS_WS_PORT);
 
 export default ros;
+
+// <h1>bummper Data : {bummperData ? "True" : "False"} </h1>
+// <h1>emergency Data : {emergencyData ? "True" : "False"} </h1>
+// <h1>safety_lantern Data : {safetyLanternData ? "True" : "False"} </h1>

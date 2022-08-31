@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import * as ROSLIB from "roslib"
-import ros from '../config/ros-config';
+import ros from '../../config/ros-config';
 import './test.css'
 
 const TestRosBridge = () => {

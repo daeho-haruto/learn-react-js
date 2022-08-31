@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import TestRosBridge from './components/turtle_test_suite/test';
+import BlodyBeta2TestSuite from './components/blody-beta2_test_suite/blody-beta2_test_suite';
 // import ScrollBox from './components/02_study/ScrollBox';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <TestRosBridge/>
+        <BlodyBeta2TestSuite/>
       </div>
     );
   }
